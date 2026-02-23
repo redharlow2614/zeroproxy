@@ -101,8 +101,8 @@ jobs:
     #     name: iw8-mod
     #     path: build/x64/Release/iw8/version.dll
 
-    - name: Upload t9-mod artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: t9-mod
-        path: build/x64/Release/t9/version.dll
+    # - name: Upload t9-mod artifact
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: t9-mod
+    #     path: build/x64/Release/t9/version.dll
